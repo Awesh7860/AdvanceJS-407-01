@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+width: 100vw;
+height: 100vh;
+display: flex;
+background-color: black;
+align-items: center;
+justify-content:center;
+}
+.mainsection{
+    width:60%;
+    height: 95%;
+    display: flex;
+    border: 5px solid salmon;
+    border-radius: 10px;
+    background-image: url(https://img.freepik.com/free-vector/gradient-world-emoji-day-background-with-emoticons_23-2149425513.jpg?w=740&t=st=1676047626~exp=1676048226~hmac=13e75a4ca34c7417b9a0ea1e1ddc89663ce8c02b62476bb3fc2f22dcc9080852);
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+.uppersection{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-self:center;
+    justify-content:center;
+    color:black;
+    font-family: ;
+}
+.uppersection h1{
+    display: flex;
+    align-self: center;
+}
+.middlesection{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.middlesection .searchbar{
+    width:40%;
+    height: 30%;
+    margin-right: 1rem;
+    border: 1px solid blue;
+    border-radius: 20px;
+    outline: none;
+    background-color: white;
+    padding: 0.5rem;
+}
+.middlesection .btn{
+    width: 15%;
+    height: 30%;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.imojeesection{
+    width: 96%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    border: 5px solid crimson;
+    margin: 0.5rem;
+    border-radius:1rem;
+}
+.box{
+    width: 95%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.emojiIcon{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+.emojitag{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.emojiname{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+::-webkit-scrollbar{
+    display: none;
+}
